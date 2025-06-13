@@ -1,0 +1,8 @@
+{{int(1-100)}}          // 生成1到100的整数
+{{int(8080,80,443)}}    // 生成8080、80、443
+{{network(192.168.1.1/24)}} //生成CIDR范围内的所有IP地址
+{{punctuation}}        // 生成所有标点符号
+{{repeatstr(abc|3)}}  //构造特定长度的输入。
+{{payload(payload_name)}}  // 加载名为payload_name的字典
+{{urlenc({{payload(user_top10)}})}} //对 user_top10 字典进行 URL 编码
+{{urlescape({{payload(user_top10)}})}} //对 user_top10 字典特殊符号进行 URL 编码
