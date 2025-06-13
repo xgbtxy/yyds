@@ -1,0 +1,4 @@
+1. 获取 Access Token
+curl "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET"
+2. 验证 Access Token 有效性
+curl "https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token=ACCESS_TOKEN"
