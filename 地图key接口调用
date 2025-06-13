@@ -1,0 +1,12 @@
+1. 高德地图
+ 
+https://restapi.amap.com/v3/ip?key=你的KEY
+2. 百度地图
+ 
+https://api.map.baidu.com/location/ip?ak=你的AK
+3. 腾讯地图
+ 
+https://apis.map.qq.com/ws/location/v1/ip?key=你的KEY
+4. 谷歌地图
+ 
+https://maps.googleapis.com/maps/api/geocode/json?address=Google&key=你的KEY
