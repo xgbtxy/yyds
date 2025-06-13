@@ -1,0 +1,51 @@
+1. 百度文心大模型
+ 
+# 获取Access Token
+curl "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=YOUR_API_KEY&client_secret=YOUR_SECRET_KEY"
+
+# 调用对话接口
+curl -X POST "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions?access_token=YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"messages":[{"role":"user","content":"你好"}]}'
+2. 阿里云通义千问
+ 
+curl -X POST "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"qwen-turbo","input":{"messages":[{"role":"user","content":"你好"}]}}'
+3. 讯飞星火大模型
+ 
+curl -X POST "https://spark-api.xf-yun.com/v2.1/chat" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: YOUR_API_KEY" \
+  -d '{"header":{"app_id":"YOUR_APP_ID"},"parameter":{"chat":{"domain":"generalv2"}},"payload":{"message":{"text":[{"role":"user","content":"你好"}]}}}'
+4. 腾讯混元大模型
+ 
+curl -X POST "https://hunyuan.cloud.tencent.com/hyllm/v1/chat/completions" \
+  -H "Authorization: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"hunyuan","messages":[{"role":"user","content":"你好"}]}'
+5. 月之暗面（Kimi）
+ 
+curl -X POST "https://api.moonshot.cn/v1/chat/completions" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"moonshot-v1-8k","messages":[{"role":"user","content":"你好"}]}'
+6. 深度求索（DeepSeek）
+ 
+curl -X POST "https://api.deepseek.com/v1/chat/completions" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"你好"}]}'
+7. 智谱AI（ChatGLM）
+ 
+curl -X POST "https://open.bigmodel.cn/api/paas/v3/model-api/chatglm_turbo/invoke" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"chatglm_turbo","messages":[{"role":"user","content":"你好"}]}'
+8. 澜舟科技（Langboat）
+ 
+curl -X POST "https://api.langboat.com/v1/chat/completions" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"mengzi","messages":[{"role":"user","content":"你好"}]}'
