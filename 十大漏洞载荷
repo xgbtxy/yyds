@@ -1,2 +1,4 @@
 url重定向，ssrf，cors跨域
 https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet
+xss载荷
+https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#onafterscriptexecute
