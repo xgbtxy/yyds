@@ -1,11 +1,11 @@
 微信数据库解密工具总结
-wechat-dump-rs（Rust，Windows）   https://github.com/0xlane/wechat-dump-rs
+wechat-dump-rs（Windows）   https://github.com/0xlane/wechat-dump-rs
 
-PyWxDump（Python，Windows，Web界面） https://github.com/xaoyaoo/PyWxDump
+PyWxDump（Windows，Web界面） https://github.com/xaoyaoo/PyWxDump
 
-wechatDataBackup（C++，Windows，仿微信UI）https://github.com/git-jiadong/wechatDataBackup
+wechatDataBackup（Windows，仿微信UI）https://github.com/git-jiadong/wechatDataBackup
 
-chatlog（Python，Win/macOS，支持AI对接） https://github.com/sjzar/chatlog
+chatlog（Win/macOS，支持AI对接） https://github.com/sjzar/chatlog
 
 WechatExporter，一个用于导出微信聊天记录的工具，支持以 HTML、PDF 或文本格式保存聊天内容，适用于 Windows 和 macOS 系统  https://github.com/BlueMatthew/WechatExporter  
 
