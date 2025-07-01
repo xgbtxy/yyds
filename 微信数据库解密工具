@@ -1,0 +1,17 @@
+微信数据库解密工具总结
+wechat-dump-rs（Rust，Windows）   https://github.com/0xlane/wechat-dump-rs
+
+PyWxDump（Python，Windows，Web界面） https://github.com/xaoyaoo/PyWxDump
+
+wechatDataBackup（C++，Windows，仿微信UI）https://github.com/git-jiadong/wechatDataBackup
+
+chatlog（Python，Win/macOS，支持AI对接） https://github.com/sjzar/chatlog
+
+📌 说明
+这些工具用于解密微信本地数据库（如MSG.db），让用户能导出聊天记录（文本、语音、图片等），适用于：
+
+数据备份（如迁移聊天记录）
+
+AI训练（如语音克隆、聊天记录分析）
+
+隐私研究（分析自己的数据）
